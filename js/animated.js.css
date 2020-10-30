@@ -1,0 +1,7 @@
+// JavaScript Document
+ $(function() {
+    $('.arrowbox').click (function() {
+      $('html, body').animate({scrollTop: $('#supergoop').offset().top }, 'slow');
+      return false;
+    });
+  });
